@@ -10,17 +10,14 @@
   font-variation-settings:
     "wdth" 100;
 }
-
-.head{
-
-
+header{
+    background-image: url("./Resourses/Hero-bg.png");
 }
-
-
 header .nav{
     display: flex;
     justify-content: space-between;
-    margin: 30px 150px;
+    margin: 0px 150px;
+    padding-top: 30px;
     align-items: center;
 }
 
@@ -39,6 +36,11 @@ header .nav{
     border-radius: 10px;
 }
 
+.btn:hover{
+    background-color:#0056b3;
+    cursor: pointer;
+}
+
 .focused{
     margin-left: auto;
     margin-right: auto;
@@ -49,4 +51,44 @@ header .nav{
 .focused p{
     font-size: 65px;
     font-weight: bold;
+}
+
+/* action part */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 116px;
+}
+
+.side-margin{
+    margin: 0px 150px;
+}
+
+.action-pic{
+    width: 403px;
+    height: 328px;
+    overflow: hidden;
+    border-radius: 48px;
+    background-color: blue;
+}
+
+.action-pic img{
+    object-fit: cover;
+}
+
+.action-text{
+    max-width: 517px;
+    max-height: 203px;
+    text-align: left;
+}
+.action-text h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.action-text p{
+    font-size: 24px;
+    margin-bottom: 23px;
 }
