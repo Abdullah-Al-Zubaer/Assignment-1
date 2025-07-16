@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.head{
+
+
+}
+
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+    align-items: center;
+}
+
+.nav h4{
+    font-size: 35px;
+    color: #4E47FF;
+}
+
+.btn{
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+}
+
+.focused{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 905px;   
+    margin-top: 306px;
+    text-align: center;
+}
+.focused p{
+    font-size: 65px;
+    font-weight: bold;
+}
