@@ -185,3 +185,51 @@ header .nav{
     font-weight: bold;
     color: rgba(0, 0, 0,0.3);
  }
+
+ /* Get in touch section */
+
+ .form{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .label{
+   font-size: 18px;
+   font-weight:500;
+   margin-bottom: 10px;
+ }
+
+ form input{
+   font-size: 20px;
+   padding: 20px 271px 20px 32px;
+   border: none;
+   border-radius: 10px;
+   background-color: rgba(100, 95, 243, 0.2);
+ }
+
+ form .msg{
+   padding-bottom: 65px;
+   margin-bottom: 20px;
+ }
+
+ .form-btn button{
+   font-size: 16px;
+   padding: 20px;
+   width: 100%;
+ }
+
+ .get-in-touch h1{
+   font-size: 97px;
+   font-weight: bold;
+   max-width: 700px;
+ }
+
+ .get-in-touch {
+   margin-top: 106px;
+ }
